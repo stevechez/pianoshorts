@@ -98,6 +98,9 @@ const Memories = () => {
             title="Embedded youtube"
           />
         </div>
+        <p className="my-8 text-center">
+          @Copyright 2023. Created with ❤️ from Steve
+        </p>
       </div>
     </>
   );
