@@ -14,17 +14,6 @@ export default function Home() {
         From one of dad&apos;s favorite tapes of the 80&apos;s. Christopher
         Cross.
       </p>
-
-      {/* <p className="petrona text-3xl text-center mb-8 px-20 text-sky-900">
-        I will remember dad vividly from the earliest days of my childhood. He
-        the patriarch, a father who worked hard, took care of the family, kept
-        roof over our head, food on the table, made it possible to live in a
-        great town growing up.
-      </p>
-      <p className="petrona text-2xl text-center mb-4">
-        This song is from the one tape I think dad ever owned, Christopher
-        Cross.
-      </p> */}
       <div className="video-responsive">
         <iframe
           width="853"
@@ -36,11 +25,6 @@ export default function Home() {
           title="Embedded youtube"
         />
       </div>
-      {/* <p className="petrona text-2xl text-center my-8">
-        He was there for me, many times over the years. Picked me up I&apos;ve
-        fallen, lent a shoulder when I needed someone, and gave encouragement.
-        This, as a child was one of the first songs I heard my dad play:
-      </p> */}
 
       <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
         Your wisdom and your steady hand, Have helped me grow and understand,
@@ -109,14 +93,3 @@ export default function Home() {
     </main>
   );
 }
-
-// export async function getStaticProps() {
-//   const MY_PLAYLIST = process.env.YOUTUBE_PLAYLIST_ID;
-//   const API_KEY = process.env.YOUTUBE_API_KEY;
-//   const REQUEST_URL = ``;
-
-//   return {
-//     props: { results: "test" },
-//     revalidate: 10,
-//   };
-// }
