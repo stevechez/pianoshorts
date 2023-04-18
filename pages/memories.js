@@ -30,7 +30,7 @@ const Memories = () => {
         <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
           And who can forget the BMW and infamous tape deck. I swear he only
           owned one tape in that car, Christopher Cross. I remember riding in
-          the car jamming to &quote;Ride Like The Wind&quote; every time.
+          the car jamming to &quot;Ride Like The Wind&quot; every time.
         </p>
         <div className="video-responsive flex justify-center">
           <iframe
