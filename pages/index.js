@@ -1,10 +1,15 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="container w-[900px] mx-auto">
-      <h1 className="abrilFF text-6xl font-bold text-center my-14">
-        In Loving Memory of my dad
+      <h1 className="abrilFF text-6xl font-bold text-center mt-14 mb-4">
+        Thinking of my dad
       </h1>
-      <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+      <p className="sourcesans text-2xl italic font-bold text-center">
+        and sharing some words and music
+      </p>
+      <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
         To my dear father, strong and true, A man whose love shines through and
         through, You&apos;ve always been my guiding light, Through every trial
         and every fight.
@@ -14,6 +19,17 @@ export default function Home() {
         From one of dad&apos;s favorite tapes of the 80&apos;s. Christopher
         Cross.
       </p>
+
+      {/* <p className="petrona text-3xl text-center mb-8 px-20 text-sky-900">
+        I will remember dad vividly from the earliest days of my childhood. He
+        the patriarch, a father who worked hard, took care of the family, kept
+        roof over our head, food on the table, made it possible to live in a
+        great town growing up.
+      </p>
+      <p className="petrona text-2xl text-center mb-4">
+        This song is from the one tape I think dad ever owned, Christopher
+        Cross.
+      </p> */}
       <div className="video-responsive">
         <iframe
           width="853"
@@ -25,15 +41,20 @@ export default function Home() {
           title="Embedded youtube"
         />
       </div>
+      {/* <p className="petrona text-2xl text-center my-12">
+        He was there for me, many times over the years. Picked me up I&apos;ve
+        fallen, lent a shoulder when I needed someone, and gave encouragement.
+        This, as a child was one of the first songs I heard my dad play:
+      </p> */}
 
-      <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+      <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
         Your wisdom and your steady hand, Have helped me grow and understand,
         The world around me, big and bright, And how to navigate life&apos;s
         endless night.
       </p>
 
       <p className="sourcesans text-xl m-4">
-        One of dad&apos; favorite singers of the 70&apos;
+        One of his favorite singers of the 70&apos; as I recall as a young kid.
       </p>
 
       <div className="video-responsive">
@@ -46,7 +67,7 @@ export default function Home() {
           allowFullScreen
           title="Embedded youtube"
         />
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
           So on this day, I honor you, And all the things that you do, My
           father, my friend, my rock, I thank you for each precious clock.
         </p>
@@ -62,7 +83,7 @@ export default function Home() {
           allowFullScreen
           title="Embedded youtube"
         />
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
           A mentor, friend, and hero too, Your heart and soul a shining light, I
           feel so blessed to be with you, My father, my guiding knight.
         </p>
@@ -75,7 +96,7 @@ export default function Home() {
           allowFullScreen
           title="Embedded youtube"
         />
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
           Your sacrifices I can never repay, Your guidance I&apos;ll forever
           cherish, My love for you will never sway, My father, my hero,
           you&apos;ll never perish.
@@ -90,6 +111,27 @@ export default function Home() {
           title="Embedded youtube"
         />
       </div>
+      <div className="flex items-center justify-center my-8">
+        <p>@Copyright 2023. Created with ❤️ from Steve with the help of</p>
+        <Image
+          src="/ChatGPT_logo.svg"
+          alt="me"
+          width="28"
+          height="28"
+          className="ml-2"
+        />
+      </div>
     </main>
   );
 }
+
+// export async function getStaticProps() {
+//   const MY_PLAYLIST = process.env.YOUTUBE_PLAYLIST_ID;
+//   const API_KEY = process.env.YOUTUBE_API_KEY;
+//   const REQUEST_URL = ``;
+
+//   return {
+//     props: { results: "test" },
+//     revalidate: 10,
+//   };
+// }
