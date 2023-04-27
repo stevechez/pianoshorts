@@ -8,7 +8,7 @@ const Memories = () => {
         <h4 className="petrona text-3xl italic text-center text-black">
           (Steve tries his hand at singing for the very first time on tape)
         </h4>
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900 mt-24">
+        <p className="petrona text-3xl text-center my-8 md:md:px-20 text-sky-900 mt-24">
           Let us remember the bond between father and son,
           <br />
           The laughter, tears, and all the memories they&apos;ve won.
@@ -25,7 +25,7 @@ const Memories = () => {
           />
         </div>
 
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-8 md:px-20 text-sky-900">
           In the warm embrace of a father&apos;s love, a son finds his way,
           <br />
           With each shared moment, a bond stronger than words could say.
@@ -46,7 +46,7 @@ const Memories = () => {
           />
         </div>
 
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-8 md:px-20 text-sky-900">
           Together they explored the wonders of the world, The mysteries of
           nature, and the secrets untold.
           <br />
@@ -66,7 +66,7 @@ const Memories = () => {
           />
         </div>
 
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-8 md:px-20 text-sky-900">
           As the years flew by, and the world kept spinning round, They
           cherished every second, for each one was profound.
           <br />
@@ -86,7 +86,7 @@ const Memories = () => {
           />
         </div>
 
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-8 md:px-20 text-sky-900">
           So, let us remember the bond between father and son,
           <br />
           The laughter, tears, and all the memories they&apos;ve won.

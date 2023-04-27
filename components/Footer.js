@@ -2,17 +2,12 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center">
-      <p>@Copyright 2023. Created with ❤️ from Steve with the help of</p>
-      <Image
-        src="/ChatGPT_logo.svg"
-        alt="me"
-        width="28"
-        height="28"
-        className="ml-2"
-      />
-    </div>
-  );
+		<div className="flex justify-center w-11/12 mx-auto">
+			<p>
+				@Copyright 2023. Created with ❤️ from Steve.
+			</p>
+		</div>
+	);
 };
 
 export default Footer;

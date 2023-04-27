@@ -2,15 +2,15 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="container w-[900px] mx-auto">
+    <main className="container md:w-[900px] mx-auto">
       <h1 className="abrilFF text-6xl font-bold text-center mt-14 mb-4">
         Thinking of my dad
       </h1>
-      <p className="sourcesans text-2xl italic font-bold text-center">
+      <p className="sourcesans text-2xl mb-12 italic font-bold text-center">
         and sharing some words and music
       </p>
-      <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
-        To my dear father, strong and true, A man whose love shines through and
+      <p className="petrona text-3xl text-center md:my-12 px-4 md:px-20 text-sky-900">
+        To my dear father, strong and true,<br />A man whose love shines through and
         through, You&apos;ve always been my guiding light, Through every trial
         and every fight.
       </p>
@@ -20,7 +20,7 @@ export default function Home() {
         Cross.
       </p>
 
-      {/* <p className="petrona text-3xl text-center mb-8 px-20 text-sky-900">
+      {/* <p className="petrona text-3xl text-center mb-8 px-4 md:px-20 text-sky-900">
         I will remember dad vividly from the earliest days of my childhood. He
         the patriarch, a father who worked hard, took care of the family, kept
         roof over our head, food on the table, made it possible to live in a
@@ -47,7 +47,7 @@ export default function Home() {
         This, as a child was one of the first songs I heard my dad play:
       </p> */}
 
-      <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
+      <p className="petrona text-3xl text-center my-12 px-4 md:px-20 text-sky-900">
         Your wisdom and your steady hand, Have helped me grow and understand,
         The world around me, big and bright, And how to navigate life&apos;s
         endless night.
@@ -67,7 +67,7 @@ export default function Home() {
           allowFullScreen
           title="Embedded youtube"
         />
-        <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-12 px-4 md:px-20 text-sky-900">
           So on this day, I honor you, And all the things that you do, My
           father, my friend, my rock, I thank you for each precious clock.
         </p>
@@ -83,7 +83,7 @@ export default function Home() {
           allowFullScreen
           title="Embedded youtube"
         />
-        <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-12 px-4 md:px-20 text-sky-900">
           A mentor, friend, and hero too, Your heart and soul a shining light, I
           feel so blessed to be with you, My father, my guiding knight.
         </p>
@@ -96,7 +96,7 @@ export default function Home() {
           allowFullScreen
           title="Embedded youtube"
         />
-        <p className="petrona text-3xl text-center my-12 px-20 text-sky-900">
+        <p className="petrona text-3xl text-center my-12 px-4 md:px-20 text-sky-900">
           Your sacrifices I can never repay, Your guidance I&apos;ll forever
           cherish, My love for you will never sway, My father, my hero,
           you&apos;ll never perish.
