@@ -6,9 +6,8 @@ const Memories = () => {
           Memories With Dad
         </h1>
         <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
-          So Gordon Lightfoot came on the radio and it struck a cord, so I
-          decided to write a few memories of dad from back in the day, and share
-          with some piano accompaniment.
+          A few memories of dad from back in the day, and share with some piano
+          accompaniment.
         </p>
         <div className="video-responsive flex justify-center">
           <iframe
@@ -20,18 +19,22 @@ const Memories = () => {
             title="Embedded youtube"
           />
         </div>
-
+        <h3 className="abrilFF text-4xl font-semibold text-center my-14">
+          Memories Only Me and Dad Will Remember
+        </h3>
+        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
+          Who could forget the BMW and the infamous tape deck (which got the car
+          broken into and stolen three times). I swear he only owned one tape in
+          that car, Christopher Cross. I remember riding in the car jamming to
+          &quot;Ride Like The Wind&quot; every time.
+        </p>
         <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
           I remember the church trip with John Duruntz with his 12 string guitar
           and watchful audience. As he began to play to the group, who can
           forget Dad&apos; does a huge nose blow. A pauses and he begins again,
           only to stopped by loud wood chopping.
         </p>
-        <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
-          And who can forget the BMW and infamous tape deck. I swear he only
-          owned one tape in that car, Christopher Cross. I remember riding in
-          the car jamming to &quot;Ride Like The Wind&quot; every time.
-        </p>
+
         <div className="video-responsive flex justify-center">
           <iframe
             width="853"
@@ -50,10 +53,10 @@ const Memories = () => {
           ride, but at the memories of the time is clear.
         </p>
         <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
-          Then was great America. Dad doesn&apos;t seem to remember it, but it
-          happened, riding the Tidal Wave, the Demon, and winning the giant
-          stuffed tiger we proudly carried out of the park. Father/son bonding
-          at its best.
+          Then was Great America. We took trips there every summer. Dad
+          doesn&apos;t seem to remember it, but it happened... riding the Tidal
+          Wave, the Demon, and winning the giant stuffed tiger we proudly
+          carried out of the park. Father/son bonding at its best.
         </p>
         <p className="petrona text-3xl text-center my-8 px-20 text-sky-900">
           Great memories of skiing Tahoe Ski Bowl as a kid. One memory in
@@ -98,9 +101,6 @@ const Memories = () => {
             title="Embedded youtube"
           />
         </div>
-        <p className="my-8 text-center">
-          @Copyright 2023. Created with ❤️ from Steve
-        </p>
       </div>
     </>
   );
