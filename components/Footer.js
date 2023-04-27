@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center my-8">
+    <div className="flex justify-center">
       <p>@Copyright 2023. Created with ❤️ from Steve with the help of</p>
       <Image
         src="/ChatGPT_logo.svg"

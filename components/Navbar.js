@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <header>
         <div className="w-screen mx-auto flex justify-center">
-          <Link href="/" className="mt-6 ml-12">
+          <Link href="/" className="mb-12 ml-12">
             <Image
               src="/images/logo.png"
               width={250}

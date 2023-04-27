@@ -5,7 +5,7 @@ const Memories = () => {
         <h1 className="abrilFF text-6xl font-bold text-center mt-14 mb-4">
           Memories With Dad
         </h1>
-        <h4 className="petrona text-3xl italic text-center text-sky-900">
+        <h4 className="petrona text-3xl italic text-center text-black">
           (Steve tries his hand at singing for the very first time on tape)
         </h4>
         <p className="petrona text-3xl text-center my-8 px-20 text-sky-900 mt-24">
