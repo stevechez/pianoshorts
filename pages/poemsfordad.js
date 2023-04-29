@@ -38,7 +38,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Embedded youtube"
-            className="px-8 w-screen"
+            className="px-8"
           />
         </div>
       </div>
@@ -48,7 +48,7 @@ export default function Home() {
         fallen, lent a shoulder when I needed someone, and gave encouragement.
         This, as a child was one of the first songs I heard my dad play:
       </p> */}
-      <div className="flex flex-col justify-center md:first-letter:w-3/4 mx-auto">
+      <div className="flex flex-col justify-center md:w-3/4 mx-auto">
         <p className="petrona text-3xl text-center my-12 px-0 md:px-20 text-sky-900">
           Your wisdom and your steady hand, <br />
           Have helped me grow and understand, <br />
@@ -70,7 +70,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Embedded youtube"
-            className="px-8 w-screen"
+            className="px-8"
           />
         </div>
       </div>
@@ -93,7 +93,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Embedded youtube"
-            className="px-8 w-screen"
+            className="px-8"
           />
         </div>
       </div>
@@ -113,7 +113,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Embedded youtube"
-            className="px-8 w-screen"
+            className="px-8"
           />
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function Home() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Embedded youtube"
-            className="px-8 w-screen"
+            className="px-8"
           />
         </div>
       </div>

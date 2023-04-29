@@ -3,9 +3,9 @@ import Image from "next/image";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col container w-screen mx-auto">
+      <div className="flex flex-col container w-full mx-auto">
         <div className="">
-          <h1 className="abrilFF text-6xl font-bold text-center mt-14 mb-4">
+          <h1 className="abrilFF text-6xl font-bold text-center mt-14 my-12">
             Remembering Dad
           </h1>
         </div>
@@ -63,7 +63,7 @@ const Home = () => {
             className="mr-4 pt-4 w-full w=[100] h-[250px] mx-auto"
           />
         </div>
-        <div className="my-20 md:px-56">
+        <div className="flex justify-center my-20 w-full mx-auto">
           <Image
             src="/images/IMG_0030.jpg"
             width={400}
