@@ -3,36 +3,38 @@ import Image from "next/image";
 const Home = () => {
   return (
 		<>
-			<div className="flex items-center w-fit flex-col container w-full mx-auto">
+			<div className="flex flex-col container w-full mx-auto">
 				<div className="">
 					<h1 className="abrilFF text-6xl font-bold text-center mt-14 mb-4">
 						Remembering Dad
 					</h1>
 				</div>
-				<div className="flex items-center">
+				<div className="flex items-center flex-col sm:flex-row">
 					<p className="petrona text-3xl md:my-6 px-4 md:px-8 text-sky-900">
 						I wrote this a tribute to my father, a man who meant so much to so
 						many. I stand here before you with a heavy heart, but also with a
 						sense of gratitude for having had the privilege of calling him my
 						dad.
 					</p>
-
-					<Image
+<div className="w-full">
+	<Image
 						src="/images/IMG_0043.jpg"
-						width={250}
-						height={250}
+						width={200}
+						height={200}
 						alt="dad1"
-						className="mr-4 w=[250px] h-[170px]"
+						className="mr-4 pt-4 w-full w=[200px] h-[200px] mx-auto"
 					/>
+</div>
+					
 				</div>
 
-				<div className="flex items-center">
+				<div className="flex items-center flex-col md:flex-row">
 					<Image
 						src="/images/IMG_0041.jpg"
-						width={200}
+						width={300}
 						height={300}
 						alt="dad2"
-						className="-rotate-90 w-full md:w-[200px] md:h-[200px]"
+						className="-rotate-90 w-full md:w-[250px] md:h-[250px]"
 					/>
 
 					<p className="petrona text-3xl my-12 px-4 md:px-8 text-sky-900">
@@ -44,7 +46,7 @@ const Home = () => {
 					</p>
 				</div>
 
-				<div className="flex items-center">
+				<div className="flex items-center flex-col md:flex-row">
 					<p className="petrona text-3xl md:my-6 px-4 md:px-8 text-sky-900">
 						As I stand here today, I&apos;m reminded of all the wonderful
 						memories I have with him. From fishing trips to family vacations, we
@@ -58,10 +60,10 @@ const Home = () => {
 						width={300}
 						height={300}
 						alt="dad2"
-						className="-rotate-90 w-full ml-4 md:w-[300px] md:h-[300px]"
+						className="-rotate-90 w-full ml-4 md:w-[200px] md:h-[200px]"
 					/>
 				</div>
-				<div className="mt-20">
+				<div className="my-20 md:px-56">
 					<Image
 						src="/images/IMG_0030.jpg"
 						width={400}
