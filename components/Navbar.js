@@ -6,7 +6,7 @@ export default function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 
 	return (
-		<nav className="w-full bg-white shadow relative">
+		<nav className="w-full bg-blue-50 shadow-xl relative sticky top-0 z-40">
 			<div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 ">
 				<div>
 					<div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -18,7 +18,6 @@ export default function NavBar() {
 								alt="Dads Site"
 							/>
 						</Link>
-
 
 						<div className="md:hidden">
 							<button
@@ -89,7 +88,6 @@ export default function NavBar() {
 									Steve Sings
 								</Link>
 							</li>
-							
 						</ul>
 					</div>
 				</nav>
