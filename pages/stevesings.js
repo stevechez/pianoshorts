@@ -66,7 +66,7 @@ const Memories = () => {
           />
         </div>
 
-        <p className="petrona text-3xl text-center my-8 md:px-20 text-sky-900">
+        {/* <p className="petrona text-3xl text-center my-8 md:px-20 text-sky-900">
           As the years flew by, and the world kept spinning round, They
           cherished every second, for each one was profound.
           <br />
@@ -105,7 +105,7 @@ const Memories = () => {
             allowFullScreen
             title="Embedded youtube"
           />
-        </div>
+        </div> */}
       </div>
     </>
   );
